@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestRunner-Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vitiger.testScriptWithTestmethod.tc_06CreateOrgWithMemberOf">
+        <methods>
+          <include name="closeDB"/>
+          <include name="launchBrowser"/>
+          <include name="CreateOrgWithMemberOfTest"/>
+          <include name="closeBrowser"/>
+          <include name="createconnnectionWithDatabase"/>
+          <include name="logOut"/>
+          <include name="OpenApp"/>
+        </methods>
+      </class> <!-- com.vitiger.testScriptWithTestmethod.tc_06CreateOrgWithMemberOf -->
+    </classes>
+  </test> <!-- TestRunner-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.vitiger.testScriptWithTestmethod.tc_06">
+        <methods>
+          <include name="loginFailedTest"/>
+          <include name="closeDB"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createconnnectionWithDatabase"/>
+          <include name="logOut"/>
+          <include name="OpenApp"/>
+        </methods>
+      </class> <!-- com.vitiger.testScriptWithTestmethod.tc_06 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
